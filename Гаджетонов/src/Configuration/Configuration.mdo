@@ -3,7 +3,7 @@
   <name>МагазинГаджетОн</name>
   <synonym>
     <key>ru</key>
-    <value>Интернет-магазин &quot;GadgetON&quot;</value>
+    <value>Интернет-магазин &quot;GadgetON&quot;q</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="6c13696c-27a0-4603-aae6-9c9b4a0f1c70"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="97b88311-d5e6-42f5-a540-1545dee850de"/>
@@ -37,12 +37,15 @@
   <styles>Style.Корпоративный</styles>
   <commonPictures>CommonPicture.КартинкаПоставки</commonPictures>
   <commonPictures>CommonPicture.КартинкаЗаказы</commonPictures>
+  <sessionParameters>SessionParameter.ТекущийПользовательСеанса</sessionParameters>
+  <roles>Role.Администратор</roles>
   <definedTypes>DefinedType.ДенежныеСредства</definedTypes>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Поставщики</catalogs>
   <catalogs>Catalog.Договоры</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.Города</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
   <documents>Document.ЗаказыПоставщикам</documents>
   <documents>Document.ПриходныеНакладные</documents>
   <documents>Document.РасходыДенежныхСредств</documents>
